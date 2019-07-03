@@ -11,7 +11,7 @@ fig,ax = plt.subplots()
 index = np.arange(n)
 
 
-with open('reading.csv','r') as csvfile:
+with open('readingdht11.csv','r') as csvfile:
     plot = csv.reader(csvfile,delimiter=',')
     for row in plot:
         #x.append(int(row[0]))
